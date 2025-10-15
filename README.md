@@ -3,12 +3,6 @@
 Este projeto é uma aplicação web simples para gerenciar turmas e atividades de professores.  
 O sistema possui autenticação de login, criação, visualização e exclusão de turmas e atividades.
 
-## Tecnologias utilizadas
-
-- Front-end: HTML, CSS e JavaScript  
-- Back-end: Node.js e Express  
-- Banco de dados: Prisma ORM e MySQL
-
 ## Como executar o projeto
 
 ### 1. Clonar o repositório
