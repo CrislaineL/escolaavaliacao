@@ -1,4 +1,5 @@
 # Coloque o modo master
 
-![Tela de login](./web/um.png)
+![Tela de login](um.png)
+
 
