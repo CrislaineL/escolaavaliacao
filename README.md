@@ -10,12 +10,14 @@ O sistema possui autenticação de login, criação, visualização e exclusão 
 git clone https://github.com/seuusuario/nome-do-repositorio.git
 cd nome-do-repositorio
 
-### 2. Iniciar api
+```
+### 2. Iniciar a API
 cd api
 npm install
 npx prisma migrate dev --name init
 npm start
 
+```
 ### 3. Iniciar o front-end
 Abra o arquivo index.html dentro da pasta web com o Live Server (VSCode).
 
