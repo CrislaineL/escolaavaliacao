@@ -1,19 +1,33 @@
-# Requisitos de infraestrutura
+# Sistema de Gerenciamento de Turmas e Atividades
 
+Este projeto é uma aplicação web simples para gerenciar turmas e atividades de professores.  
+O sistema possui autenticação de login, criação, visualização e exclusão de turmas e atividades.
 
-- SGBD: MySQL 8.0 (ou MariaDB compatível)
-- Node.js: 18.x ou superior
-- Servidor de aplicação: Node.js/Express (não exige servidor adicional)
-- Front-end: qualquer servidor estático (p.ex. Live Server, VSCode Live Server, ou abrir arquivo em browser)
+## Tecnologias utilizadas
 
+- Front-end: HTML, CSS e JavaScript  
+- Back-end: Node.js e Express  
+- Banco de dados: Prisma ORM e MySQL
 
-## Como testar
-1. Clonar repositório
+## Como executar o projeto
 
-2. Importar `./docs/banco_turmas_db.sql` no seu MySQL
+### 1. Clonar o repositório
+```bash
+git clone https://github.com/seuusuario/nome-do-repositorio.git
+cd nome-do-repositorio
 
-3. Ajustar `api/src/db.js` com usuário/senha
+### 2. Iniciar api
+cd api
+npm install
+npx prisma migrate dev --name init
+npm start
 
-4. `cd api && npm install && npm run dev`
+### 3. Iniciar o front-end
+Abra o arquivo index.html dentro da pasta web com o Live Server (VSCode).
 
-5. Abrir `web/index.html` no browser (ou usar Live Server)
+#Funcionalidades
+
+.Login de professor
+.Cadastro e exclusão de turmas
+.Cadastro e exclusão de atividades
+.Listagem de turmas e atividades
