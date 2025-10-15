@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Escola</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; }
+  h2 { margin-top: 40px; }
+  div.turma, div.atividade { border: 1px solid #ccc; padding: 10px; margin: 5px 0; }
+  button { margin-left: 5px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Escola</h1>
+  <button id="btnSair">Sair</button>
+</header>
+
+
+<h2>Criar Turma</h2>
+<form id="formTurma">
+  <input type="text" placeholder="Nome da turma" id="nomeTurma" required>
+  <input type="text" placeholder="Descrição (opcional)" id="descricaoTurma">
+  <button type="submit">Adicionar Turma</button>
+</form>
+
+<h2>Turmas</h2>
+<div id="turmas"></div>
+
+<h2>Criar Atividade</h2>
+<form id="formAtividade">
+  <input type="text" placeholder="Título da atividade" id="tituloAtividade" required>
+  <input type="text" placeholder="Descrição (opcional)" id="descricaoAtividade">
+  <select id="selectTurma" required>
+    <option value="">Selecione a turma</option>
+  </select>
+  <button type="submit">Adicionar Atividade</button>
+</form>
+
+<h2>Atividades</h2>
+<div id="atividades"></div>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
