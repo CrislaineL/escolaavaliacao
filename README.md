@@ -25,7 +25,7 @@ Abra o arquivo index.html dentro da pasta web com o Live Server (VSCode).
 
 ``` 
 # Funcionalidades
-
+```bash
 #### Login de professor
 #### Cadastro e exclusão de turmas
 #### Cadastro e exclusão de atividades
