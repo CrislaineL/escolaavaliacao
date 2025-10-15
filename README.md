@@ -30,3 +30,6 @@ Abra o arquivo index.html dentro da pasta web com o Live Server (VSCode).
 #### Cadastro e exclusão de turmas
 #### Cadastro e exclusão de atividades
 #### Listagem de turmas e atividades
+
+```
+# Desenvolvido por Crislaine L.
