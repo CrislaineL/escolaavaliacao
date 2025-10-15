@@ -23,7 +23,8 @@ npm start
 ```bash
 Abra o arquivo index.html dentro da pasta web com o Live Server (VSCode).
 
-#Funcionalidades
+``` 
+# Funcionalidades
 
 .Login de professor
 .Cadastro e exclusão de turmas
