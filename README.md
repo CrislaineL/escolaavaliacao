@@ -18,7 +18,7 @@ npm install
 npx prisma migrate dev --name init
 npm start
 
-
+```
 ### 3. Iniciar o front-end
 ```bash
 Abra o arquivo index.html dentro da pasta web com o Live Server (VSCode).
